@@ -1,0 +1,107 @@
+.img-nav {
+    height: 455px;
+}
+////////////////////////////
+.nav-blue {
+    display: flex;
+    background-image: linear-gradient(45deg, #4b93d1c7, #0a2564d9);
+    position: absolute;
+    float: right;
+    top: 170px;
+    align-items: center;
+    z-index: 2;
+    justify-content: flex-end;
+    margin: auto;
+    margin-right: 1.4rem;
+}
+.nav-blue li {
+    list-style: none;
+    padding: 5px 1rem;
+}
+.nav-blue li a {
+    text-decoration: none;
+    color: rgb(213, 214, 214);
+    font-size: 0.9rem;
+}
+.nav-blue li a span {
+    font-size: 17px;
+    margin: 0px 2px auto auto;
+}
+.nav-blue li:hover {
+    background-image: linear-gradient(60deg, #59abf3b5, #59abf366);
+
+}
+//////
+.nav-blue li #notewo-ul {
+    display: none;
+}
+.nav-blue #notewo-li:hover #notewo-ul {
+    display: block;
+    position: absolute;
+    padding: 0.5rem 0.4rem;
+    z-index: 1000;
+    left: 109px;
+    top: 34px;
+    background-image: linear-gradient(180deg, rgb(87, 87, 87), rgb(91, 101, 125),rgb(87, 87, 87));
+}
+.nav-blue li #notewo-ul li a:hover {
+    color: #fff;
+    text-decoration: 2px underline #fff;
+}
+/////
+.search-input {
+    background-image: none;
+    border: 1px solid rgba(96, 133, 155, 0.979);
+    margin: 3px 3px 3px 5rem;
+    border-radius: 4px;
+    padding: 0 0 0 25px;
+    background-color: rgba(96, 133, 155, 0.979);
+    box-shadow: 1px 1px 0px 1px #395566;
+}
+.search-input::placeholder {
+    font-size: 14px;
+    color: rgb(72, 69, 69);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.search-input:focus {
+    color: #fff;
+}
+.btn-search {
+    position: absolute;
+    background-color: #57a1c5;
+    color: #4f5f6e;
+    border: 1px solid #9fa1b370;
+    border-radius: 2px;
+    height: 23px;
+    right: 5px;
+    bottom: 6px;
+    box-shadow: 1px 1px 4px 0px black;
+}
+.btn-search span {
+    font-size: 22px;
+}
+.btn-search:hover {
+    background-color: #45a5d6;
+}
+.search-input:hover {
+    border: 1px solid #45a5d6;
+}
+
+
+////////////////////////////
+.main-img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.main-img a video {
+    width: 138%;
+    transform: scaleY(1.2) translateX(-14%);
+    height: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .main-img a video {
+    }
+}

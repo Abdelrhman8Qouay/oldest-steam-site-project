@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+
+//all css sittings for every div and header and footer to page
+
+@import './allCss/_serv-own.scss';
+@import './allCss/header';
+@import './allCss/img-nav';
+@import './allCss/serv-show';
+@import './allCss/featured-recom';
+@import './allCss/special-offers';
+@import './allCss/sign-or';
+@import './allCss/new-releases';
+@import './allCss/btns-browse-steam';
+@import './allCss/popular-vr-games';
+@import './allCss/others-btns';
+@import './allCss/others';
+@import './allCss/others-show';
+@import './allCss/streaming-now';
+@import './allCss/under-ten-dollar';
+@import './allCss/updates-offers';
+@import './allCss/look-recommend';
+@import './allCss/footer';
+
+
+
+
+// all media sittings for css
+@import './media/media912';
+@import './media/media1220';

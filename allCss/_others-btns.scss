@@ -1,0 +1,179 @@
+.dobleContent {
+    background-color: rgba(42,71,94,1.0);
+}
+
+.tagsOfOhters {
+    max-width: 64rem;
+    margin: 5.4rem auto 0 auto;
+}
+.tagsOfOhters ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+}
+
+.tagsOfOhters ul li {
+    background-color: transparent;
+    border-radius: 2px;
+}
+.tagsOfOhters ul li.active {
+    background-color: rgba(42,71,94,1.0);
+}
+.tagsOfOhters ul li.active span {
+    color: #fff;
+}
+
+
+.tagsOfOhters ul li span {
+    color: #407999;
+    padding: 15px;
+    text-decoration: none;
+}
+.tagsOfOhters ul li span:hover {
+    color: #fff;
+}
+
+
+
+//////////////////
+///
+
+
+
+.others-btns {
+    display: flex;
+    justify-content: space-between;
+    max-width: 64rem;
+    margin: 0em auto 4rem auto;
+    padding: 10px;
+}
+
+@media (max-width: 750px){
+    .others-btns .showChoicesOthers {
+        display: none;
+    }
+    .dobleContent .others-btns .choicesOhters {
+        width: 100%;
+    }
+}
+
+
+
+
+.others-btns .choicesOhters {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.choicesOhters .moreOthers {
+    text-align: end;
+    padding: 10px;
+    font-size: 0.8em;
+    background-color: #202d39;
+}
+.choicesOhters .moreOthers span {
+    color: rgb(173, 173, 173);
+}
+.choicesOhters .moreOthers a {
+    padding: 7px;
+    background-color: transparent;
+    border: 1px solid silver;
+    text-decoration: none;
+    border-radius: 3px;
+    color: #fff;
+}
+.choicesOhters .moreOthers a:hover {
+    border: 1px solid #fff;
+}
+
+.choicesOhters .boxChoice {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #202d39;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+.choicesOhters .boxChoice:hover {
+    background-color: #88adc9;
+    margin-right: -20px;
+}
+.choicesOhters .boxChoice:hover .infoChoiceBox {
+    padding-left: 20px;
+    color: #000;
+}
+.choicesOhters .boxChoice:hover .infoChoiceBox p {
+    color: #000;
+}
+.choicesOhters .boxChoice:hover .salleChoiceBox .salleNumsBox p {
+    color: #000;
+}
+
+
+
+.choicesOhters .boxChoice .imgChoiceBox {
+    width: 25%;
+}
+
+
+
+.choicesOhters .boxChoice .infoChoiceBox {
+    width: 45%;
+    margin: 0 30px 0 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(173, 173, 173);
+}
+.choicesOhters .boxChoice .infoChoiceBox ion-icon{
+    color: #f8f9fa;
+}
+.choicesOhters .boxChoice .infoChoiceBox p{
+    font-size: 0.8em;
+    color: #808080;
+}
+
+
+
+.choicesOhters .boxChoice .salleChoiceBox {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.choicesOhters .boxChoice .salleChoiceBox span:nth-child(1) {
+    padding: 1px 4px;
+    color: #a4d007;
+    background: #4c6b22;
+    text-align: center;
+}
+.choicesOhters .boxChoice .salleChoiceBox .salleNumsBox span{
+    color:#6d879b;
+    text-decoration: line-through;
+    font-size: 0.8em;
+    background-color: unset;
+    padding: 0 0 0 8px;
+}
+.choicesOhters .boxChoice .salleChoiceBox .salleNumsBox p {
+    color: #88adc9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.others-btns .showChoicesOthers {
+    width: 28%;
+    padding: 15px;
+    background-color: #88adc9;
+}

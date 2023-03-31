@@ -1,0 +1,137 @@
+.featured-recommended {
+    margin: 20px auto;
+    max-width: 64rem;
+    margin: 0em auto 4rem auto;
+    padding: 0.8rem;
+}
+.featured-recommended span {
+    color: #d5d6d6;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.featured-recommended #carouselExampleIndicators {
+    margin: 5px auto;
+}
+
+// for all of carousels in the page
+
+.carousel-control-next {
+    background-image: linear-gradient(90deg, transparent, black);
+    height: 115px;
+    width: 6%;
+    right: -65px;
+    top: 135px;
+}
+
+
+.featured-recommended #carouselExampleIndicators .carousel-control-next {
+    right: -63px;
+    top: 114px;
+}
+.featured-recommended #carouselExampleIndicators .carousel-control-prev {
+    left: -63px;
+    top: 114px;
+}
+
+
+.carousel-control-prev {
+    background-image: linear-gradient(90deg, black, transparent);
+    height: 115px;
+    width: 6%;
+    left: -62px;
+    top: 135px;
+}
+.carousel-control-next:hover {
+    background-image: linear-gradient(90deg, transparent, rgba(169, 169, 169, 0.794));
+}
+.carousel-control-prev:hover {
+    background-image: linear-gradient(90deg, rgba(169, 169, 169, 0.794), transparent);
+}
+
+
+.carousel-control-prev .carousel-control-prev-icon {
+    width: 5rem;
+    height: 5rem;
+}
+.carousel-control-next .carousel-control-next-icon {
+    width: 5rem;
+    height: 5rem;
+}
+
+////////
+
+.carousel-indicators {
+    bottom: -31px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 9px;
+    border-radius: 3px;
+    border: none;
+}
+
+///////
+
+.featured-recommended #carouselExampleIndicators .carousel-inner {
+    box-shadow: 0 0 20px 1px black;
+}
+
+// for featured-recommended only
+
+.featured-recommended #carouselExampleIndicators .carousel-inner .carousel-item .featured-main-img {
+    width: 70%;
+}
+.featured-recommended #carouselExampleIndicators .carousel-inner .carousel-item .carso-info {
+    width: 30%;
+}
+
+.carousel-inner .carousel-item .imgs .row .sm-images {
+    height: 100px;
+}
+.carousel-inner .carousel-item .imgs .row .sm-images img {
+    height: 92%;
+    opacity: 0.6;
+}
+.carousel-inner .carousel-item .imgs .row .sm-images img:hover {
+    opacity: 1;
+}
+
+.carousel-inner .carousel-item .side {
+    z-index: 1;
+    box-shadow: 0 0 13px 10px black;
+    width: 109%;
+    cursor: pointer;
+}
+.carousel-inner .carousel-item .side img {
+    height: 100%;
+}
+
+.carousel-inner .carousel-item .info {
+    border: 0.7px solid #7271717d;
+    background-image: url(./images/slideBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.carousel-inner .carousel-item .info h2 {
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+.carousel-inner .carousel-item .info p:nth-of-type(2) {
+    font-size: 0.9em;
+    background-color: #838383;
+    border-radius: 2px;
+    width: 20%;
+}
+
+
+
+.contn-show-img-info {
+    display: block;
+    position: absolute;
+    background-color: #d5d6d6;
+    height: 100px;
+    width: auto;
+    z-index: 100;
+}

@@ -1,0 +1,37 @@
+.sign-or {
+    max-width: 64rem;
+    margin: 0em auto 4rem auto;
+    background-color: #172030;
+    text-align: center;
+    padding: 10px;
+}
+.sign-or p {
+    text-align: center;
+    color: rgb(180, 185, 190);
+    font-weight: 400;
+    margin: 13px;
+}
+.sign-or p a {
+    color: #fff;
+    text-decoration: none;
+}
+.sign-or p a:hover {
+    color: #57a1c5;
+}
+
+/////////
+
+.sign-or #a-sign {
+    text-align: center;
+    background-color: #a4d007;
+    box-shadow: inset 0 0 17px 11px #3c4a0b;
+    color: #D2E885 ;
+    border-radius: 5px;
+    padding: 6px 13px;
+    text-decoration: none;
+}
+.sign-or #a-sign:hover {
+    background-color: #87a324;
+    box-shadow: none;
+    color: #fff;
+}

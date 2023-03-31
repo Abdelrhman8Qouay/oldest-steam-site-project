@@ -1,0 +1,30 @@
+.btns-browse-steam {
+    width: 64rem;
+    margin: 0em auto 4rem auto;
+}
+.btns-browse-steam span {
+    color: #d5d6d6;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/////////
+
+.btns-browse-steam .all-browse-btns {
+    display: grid;
+    grid-template-columns: repeat( 4, 1fr );
+    gap: 8px;
+    margin: 5px auto;
+}
+.btns-browse-steam .all-browse-btns a {
+    background-image: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+    text-align: center;
+    color: #e1e5e5;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+.btns-browse-steam .all-browse-btns a:hover {
+    background-image: linear-gradient(90deg, #54cff8 0%, #2D73FF 100%);
+}

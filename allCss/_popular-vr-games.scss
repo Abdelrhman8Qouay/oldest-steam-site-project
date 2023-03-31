@@ -1,0 +1,59 @@
+.popular-vr-games {
+    max-width: 64rem;
+    margin: 0em auto 4rem auto;
+    margin: 15px auto 0 auto;
+    padding: 5px;
+}
+.popular-vr-games span {
+    color: #d5d6d6;
+    font-size: 15px;
+}
+.popular-vr-games #carousele-thre {
+    margin: 5px auto;
+}
+
+.rowVr {
+    gap: 10px;
+    max-width: 100%;
+}
+.rowVr .shad {
+    box-shadow: 0 0 4px black;
+    padding: 0;
+}
+
+.rowVr .shad .imgVr {
+    width: 100%;
+}
+.rowVr .shad .imgVr img{
+    object-fit: cover;
+}
+
+.rowVr .shad .infVr {
+    background-image: linear-gradient(#325471, #407999);
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+.rowVr .shad .infVr span {
+    font-weight: 500;
+    background-color: #2b4d64;
+    padding: 3px;
+    font-size: 0.7em;
+}
+
+
+// the btns
+
+.btnVrPrv {
+    right: -66px;
+    top: 18px;
+}
+
+.btnVrNxt {
+    right: -55px;
+    top: 18px;
+}
+
+.all-content {
+    background-color: rgb(20, 46, 67);
+}

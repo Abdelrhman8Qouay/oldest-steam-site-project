@@ -1,0 +1,136 @@
+
+.serv-show {
+    width: 0;
+    display: none;
+    transition: width 0.5s;
+
+}
+.serv-show .offer-show-img a img {
+    width: 100%;
+}
+
+//////////
+
+
+.serv-show .for-you-serv {
+    display: flex;
+    flex-direction: column;
+    margin: 9px auto;
+    font-size: 16px;
+}
+.serv-show .for-you-serv span {
+    color: #d5d6d6;
+    font-size: 12px;
+}
+.serv-show .for-you-serv a {
+    text-decoration: none;
+    color: #57a1c5;
+    font-weight: 400;
+    font-size: 13px;
+}
+.serv-show .for-you-serv a:hover {
+    color: #fff;
+}
+.serv-show .for-you-serv a #friends-icons {
+    background-image: url(../images/all_icon_offer_show.png);
+    background-position: 0px 0px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4px;
+}
+.serv-show .for-you-serv a #curators-icons {
+    background-image: url(../images/all_icon_offer_show.png);
+    background-position: -16px 0px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4px;
+}
+.serv-show .for-you-serv a #tags-icons {
+    background-image: url(../images/all_icon_offer_show.png);
+    background-position: -32px 0px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4px;
+}
+.serv-show .for-you-serv a #recommendations-icons {
+    background-image: url(../images/all_icon_offer_show.png);
+    background-position: -48px 0px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4px;
+}
+.serv-show .for-you-serv a #releases-one-icons {
+    background-image: url(../images/all_icon_offer_show.png);
+    background-position: -64px 0px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4px;
+}
+.serv-show .for-you-serv a #top-sellers-icons {
+    background-image: url(../images/all_icon_offer_show.png);
+    background-position: -80px 0px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4px;
+}
+.serv-show .for-you-serv a #releases-two-icons {
+    background-image: url(../images/all_icon_offer_show.png);
+    background-position: -112px 0px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4px;
+}
+.serv-show .for-you-serv a #upcoming-icons {
+    background-image: url(../images/all_icon_offer_show.png);
+    background-position: -128px 0px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4px;
+}
+.serv-show .for-you-serv a #specials-icons {
+    background-image: url(../images/all_icon_offer_show.png);
+    background-position: -144px 0px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4px;
+}
+.serv-show .for-you-serv a #vr-title-icons {
+    background-image: url(../images/all_icon_offer_show.png);
+    background-position: -160px 0px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4px;
+}
+.serv-show .for-you-serv a #controller-icons {
+    background-image: url(../images/all_icon_offer_show.png);
+    background-position: -176px 0px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4px;
+}
+
+
+//////
+
